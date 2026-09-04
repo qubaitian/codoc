@@ -9,5 +9,8 @@
 !README.md
 !codoc.md
 !init
+!CONTEXT.md
+!docs/
+!docs/adr/
+!docs/adr/*.md
 !.agents/**
-
