@@ -1,0 +1,11 @@
+# Ignore all files by default.
+*
+# Keep directories so Git can look inside them.
+!*/
+
+# Track only these files.
+!.gitignore
+!AGENTS.md
+!README.md
+!codoc.md
+!init
