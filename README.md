@@ -7,8 +7,16 @@ Codoc generates source files from marked Markdown code blocks.
 Put metadata on the opening fence:
 
 ````markdown
-```(:lang commonlisp :path src/package.lisp :start 1 :end 24)
-(defpackage #:example)
+[Purpose in one sentence. Split the block if that fails.](src/test.py#L3-L10)
+```python
+# Compute the factorial.
+def factorial(n):
+    # Stop the recursion.
+    if n <= 1:
+        return 1
+
+    # Compute the recursive product.
+    return n * factorial(n - 1)
 ```
 ````
 
